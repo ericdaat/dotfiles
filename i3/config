@@ -162,21 +162,21 @@ bindsym $mod+r mode "resize"
 #         status_command i3status
 # }
 
-bar {
-        status_command conky
-        status_command py3status -c ~/.config/i3/i3status.conf
-        position bottom
-		workspace_buttons yes
-        colors  {
-        	background #0F0F0F
-			statusline #D5D5D5
-			focused_workspace #F5F5FF #7FB256
-			active_workspace #E5E5E5 #5697B2
-			inactive_workspace #E5E5E5 #5697B2
-			urgent_workspace #E5E5E5 #BC9B54
-		}
-}
-
+# bar {
+#         status_command conky
+#         status_command py3status -c ~/.config/i3/i3status.conf
+#         position bottom
+# 		workspace_buttons yes
+#         colors  {
+#         	background #0F0F0F
+# 			statusline #D5D5D5
+# 			focused_workspace #F5F5FF #7FB256
+# 			active_workspace #E5E5E5 #5697B2
+# 			inactive_workspace #E5E5E5 #5697B2
+# 			urgent_workspace #E5E5E5 #BC9B54
+# 		}
+# }
+# 
 # Pulse Audio controls
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% #decrease sound volume
@@ -199,4 +199,10 @@ bindsym XF86AudioPrev exec playerctl previous
 exec --no-startup-id feh --bg-scale ~/Pictures/yosemite_flat_design.png
 
 # dual screen
-exec --no-startup-id xrandr | grep 'HDMI-1 connected' && xrandr --output HDMI-1 --auto --left-of eDP-1
+exec --no-startup-id xrandr | grep 'HDMI-1 connected' && xrandr --output HDMI-1 --auto --right-of eDP-1
+
+# polybar
+exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+
+# disable touchpad
+exec_always --no-startup-id xinput --disable $(xinput | grep Touchpad | cut -d'=' -f 2 | cut -c 1-2)
