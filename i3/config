@@ -215,7 +215,7 @@ bindsym XF86AudioPrev exec playerctl previous
 # exec --no-startup-id conky -c ~/.conkyrc
 
 # wallpaper
-exec --no-startup-id feh --bg-scale ~/Pictures/yosemite_flat_design.png
+exec --no-startup-id feh --bg-scale ~/Pictures/wallpapers/yosemite_flat_design.png
 
 # dual screen
 exec --no-startup-id xrandr | grep 'HDMI-1 connected' && xrandr --output HDMI-1 --auto --right-of eDP-1
@@ -228,3 +228,6 @@ exec_always --no-startup-id fluxgui
 
 # disable touchpad
 exec_always --no-startup-id xinput --disable $(xinput | grep Touchpad | cut -d'=' -f 2 | cut -c 1-2)
+
+# network manager
+exec --no-startup-id nm-applet
