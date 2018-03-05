@@ -43,15 +43,15 @@ exec nm-applet
 bindsym $mod+Tab workspace back_and_forth
 
 # Workspaces vars
-set $workspace1 "1:  Terminal"
-set $workspace2 "2:  Web"
-set $workspace3 "3:  IDE"
-set $workspace4 "4:  IDE bis"
+set $workspace1 "1:   Terminal"
+set $workspace2 "2:   Web"
+set $workspace3 "3:   IDE"
+set $workspace4 "4:   IDE bis"
 set $workspace5 "5:  Files"
-set $workspace6 "6: "
-set $workspace7 "7:  Work Web"
-set $workspace8 "8:  Music"
-set $workspace9 "9:  Chat"
+set $workspace6 "6:   Web"
+set $workspace7 "7:   Web"
+set $workspace8 "8:   Music"
+set $workspace9 "9:   Chat"
 
 # Program Workspaces
 assign [class="Firefox"] $workspace2
@@ -222,7 +222,7 @@ bar {
         colors  {
         	background $bg
 			statusline #D5D5D5
-			focused_workspace $ia #F5F5FF #7FB256
+			focused_workspace #F5F5FF #7FB256
 			active_workspace $ia #E5E5E5 #5697B2
 			inactive_workspace $ac #E5E5E5 #5697B2
 			urgent_workspace #E5E5E5 #BC9B54
