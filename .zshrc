@@ -1,15 +1,14 @@
-#if [ "$TMUX" = "" ]; then tmux; fi
-
 # If you come from bash you might have to change your $PATH.
+#if [ "$TMUX" = "" ]; then tmux; fi
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-  export ZSH=/home/eric/.oh-my-zsh
+export ZSH=/Users/eric/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="refined"
+ZSH_THEME="gianu"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -53,7 +52,7 @@ ENABLE_CORRECTION="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git docker)
+plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -85,14 +84,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias grip="grip --pass PASS"
-alias tas="tmux attach-session -t"
-alias dual-screen="xrandr | grep 'HDMI-1 connected' && xrandr --output HDMI-1 --auto --left-of eDP-1"
-alias duplicate-screen="xrandr --output HDMI-1 --mode 1920x1080 --same-as eDP-1"
-alias disable-touchpad="xinput --disable $(xinput | grep Touchpad | cut -d'=' -f 2 | cut -c 1-2)"
-alias enable-touchpad="xinput --enable $(xinput | grep Touchpad | cut -d'=' -f 2 | cut -c 1-2)"
-
-# Spark
-# export SPARK_HOME='/opt/spark-2.2.0-bin-hadoop2.7/'
-# export PATH=$SPARK_HOME:$PATH
-# export PYTHONPATH=$SPARK_HOME/python:$PYTHONPATH
+if [ -f ~/.bash_aliases ]; then
+    . ~/.bash_aliases
+fi
