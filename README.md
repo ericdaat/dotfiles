@@ -3,7 +3,7 @@
 ## [Zsh](http://www.zsh.org/)
 
 ``` bash
-sudo apt install zsh
+brew install zsh
 ```
 
 ### [OhMyZsh](http://ohmyz.sh/)
