@@ -3,8 +3,9 @@
 # Install brew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)";
 
-# Python 3
-brew install python3;
+# Programming languages
+brew install python3;  # python3
+curl https://sh.rustup.rs -sSf | sh;  # rust
 
 # Zsh and ohmyzsh
 brew install zsh \
