@@ -1,21 +1,11 @@
 # Dotfiles for macos
 
-## [Brew](https://brew.sh/)
+Including configuration for:
 
-``` text
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```
+ - [Brew](https://brew.sh/)
+ - [Zsh](http://www.zsh.org/)
+ - [OhMyZsh](http://ohmyz.sh/)
 
+Run `install.sh` to intall the various components and their configuration files.
 
-## [Zsh](http://www.zsh.org/)
-
-``` text
-brew install zsh
-```
-
-### [OhMyZsh](http://ohmyz.sh/)
-
-``` text
-sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-```
-
+For vim, refer to [this repository](https://github.com/ericdaat/vim-config).
