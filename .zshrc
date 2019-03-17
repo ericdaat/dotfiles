@@ -88,5 +88,10 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
-# Add rust cargo to PATH
+# Append to PATH
 export PATH="$HOME/.cargo/bin:$PATH"
+export PATH="/usr/local/opt/node@10/bin:$PATH"
+
+# Node
+export LDFLAGS="-L/usr/local/opt/node@10/lib"
+export CPPFLAGS="-I/usr/local/opt/node@10/include"
