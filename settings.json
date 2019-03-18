@@ -5,6 +5,14 @@
     "explorer.confirmDelete": false,
     "editor.minimap.enabled": false,
     "editor.rulers": [80],
+    "autoDocstring.docstringFormat": "google",
+    "files.exclude": {
+        ".idea": true,
+        "**/.ipynb_checkpoints": true,
+        "**/.pytest_cache": true,
+        "**/__pycache__": true,
+        "**/*.pyc": true
+    },
     "vim.easymotion": true,
     "vim.sneak": true,
     "vim.incsearch": true,
