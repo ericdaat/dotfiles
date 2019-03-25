@@ -16,3 +16,5 @@ brew install zsh \
 # Other useful programs
 brew install tmux && cp .tmux.conf ~/.tmux.conf
 brew install htop;
+brew install fzf;
+brew install ctags;
