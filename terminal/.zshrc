@@ -95,3 +95,6 @@ export PATH="/usr/local/opt/node@10/bin:$PATH"
 # Node
 export LDFLAGS="-L/usr/local/opt/node@10/lib"
 export CPPFLAGS="-I/usr/local/opt/node@10/include"
+
+# FZF
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

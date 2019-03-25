@@ -10,11 +10,15 @@ curl https://sh.rustup.rs -sSf | sh;  # rust
 # Zsh and ohmyzsh
 brew install zsh \
 && sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" \
-&& cp .zshrc ~/.zshrc \
-&& cp .bash_aliases ~/.bash_aliases;
+&& cp terminal/.zshrc ~/.zshrc \
+&& cp terminal/.bash_aliases ~/.bash_aliases \
+&& cp terminal/.fzf.zsh ~/.fzf.zsh;
 
 # Other useful programs
-brew install tmux && cp .tmux.conf ~/.tmux.conf
+brew install tmux && cp terminal/.tmux.conf ~/.tmux.conf
 brew install htop;
 brew install fzf;
 brew install ctags;
+
+# VS Code
+cp vscode/settings.json "~/Library/Application Support/Code/User/settings.json"
