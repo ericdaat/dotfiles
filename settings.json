@@ -39,5 +39,6 @@
     "vim.handleKeys": {
         "<C-a>": false,
         "<C-f>": false
-    }
+    },
+    "files.insertFinalNewline": true
 }
