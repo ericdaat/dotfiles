@@ -63,5 +63,7 @@
     "editor.wordBasedSuggestions": true,
     // Enable parameter hints
     "editor.parameterHints.enabled": true,
-    "files.trimTrailingWhitespace": true
+    "files.trimTrailingWhitespace": true,
+    // Linters
+    "python.linting.flake8CategorySeverity.E": "Warning"
 }
