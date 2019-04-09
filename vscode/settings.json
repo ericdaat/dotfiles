@@ -60,7 +60,7 @@
     // Controls how suggestions are pre-selected when showing the suggest list
     "editor.suggestSelection": "recentlyUsed",
     // Enable word based suggestions
-    "editor.wordBasedSuggestions": true,
+    "editor.wordBasedSuggestions": false,
     // Enable parameter hints
     "editor.parameterHints.enabled": true,
     "files.trimTrailingWhitespace": true,
