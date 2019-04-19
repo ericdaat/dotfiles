@@ -6,7 +6,7 @@ Including configuration for:
  - [Zsh](http://www.zsh.org/)
  - [OhMyZsh](http://ohmyz.sh/)
  - [Visual Studio Code](https://code.visualstudio.com/)
+ - [Vim](https://www.vim.org/)
 
 Run `setup.sh` to intall the various components and their configuration files.
 
-For vim, refer to [this repository](https://github.com/ericdaat/vim-config).
