@@ -6,6 +6,7 @@ Including configuration for:
  - [Zsh](http://www.zsh.org/)
  - [OhMyZsh](http://ohmyz.sh/)
  - [Visual Studio Code](https://code.visualstudio.com/)
+ - [Sublime Text](https://www.sublimetext.com/)
 
 Run `setup.sh` to intall the various components and their configuration files.
 
