@@ -8,6 +8,7 @@ Including configuration for:
  - [Visual Studio Code](https://code.visualstudio.com/)
  - [Vim](https://www.vim.org/)
  - [Sublime Text](https://www.sublimetext.com/)
+ - [Tmux](https://github.com/tmux/tmux)
 
 Run `setup.sh` to intall the various components and their configuration files.
 
