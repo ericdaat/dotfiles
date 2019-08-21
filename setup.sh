@@ -19,6 +19,7 @@ brew install tmux && cp terminal/.tmux.conf ~/.tmux.conf
 brew install htop;
 brew install fzf;
 brew install ctags;
+brew cask install hyper;
 
 # VS Code
 cp vscode/settings.json "~/Library/Application Support/Code/User/settings.json"
