@@ -20,6 +20,7 @@ brew install htop;
 brew install fzf;
 brew install ctags;
 brew cask install hyper;
+brew cask install postman;
 
 # VS Code
 cp vscode/settings.json "~/Library/Application Support/Code/User/settings.json"
