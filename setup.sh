@@ -15,3 +15,6 @@ cp vscode.settings.json ~/Library/Application Support/Code/User/settings.json
 cp .hyper.js ~/.hyper.js
 cp vimrc ~/.vim/vimrc
 cp .fzf.zsh ~/.fzf.zsh
+
+# symlinks
+ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin  # sublime text
