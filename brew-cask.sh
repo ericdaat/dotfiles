@@ -6,6 +6,9 @@ brew install caskroom/cask/brew-cask;
 brew cask install google-chrome;
 brew cask install firefox;
 
+# Utils
+brew cask install slack;
+
 # Code
 brew cask install postman;
 brew cask install visual-studio-code;
