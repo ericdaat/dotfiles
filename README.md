@@ -1,5 +1,13 @@
 # Dotfiles for macos
 
+I save my dotfiles in this repository for an easy setup of a new machine.
+
+Run it with:
+
+``` bash
+bash setup.sh
+```
+
 Including configuration for:
 
 - [Brew](https://brew.sh/)
