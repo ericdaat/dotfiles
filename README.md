@@ -26,7 +26,6 @@ Here are the plugins I am using so far:
 
 - Layout
   - [vim-airline](https://github.com/vim-airline/vim-airline)
-  - [Dracula](https://draculatheme.com/vim/)
 - Code
   - [NerdCommenter](https://github.com/scrooloose/nerdcommenter)
   - [vim-fugitive](https://github.com/tpope/vim-fugitive)

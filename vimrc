@@ -3,10 +3,12 @@ execute pathogen#infect()
 
 " Syntax color
 syntax on
-"colorscheme dracula
 
 " Leader key
 let mapleader=" "
+
+" Remap ESC key to jj
+imap jj <Esc>
 
 " Visual help
 set number
