@@ -6,6 +6,7 @@ curl https://sh.rustup.rs -sSf | sh;  # rust
 bash brew.sh
 bash brew-cask.sh
 bash vim.sh
+bash python.sh
 
 # zsh customization
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"  # ohmyzsh
