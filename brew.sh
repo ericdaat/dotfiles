@@ -13,3 +13,4 @@ brew install fzf;
 brew install ctags;
 brew install node;
 brew install zsh;
+brew install wget;

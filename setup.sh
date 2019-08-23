@@ -6,7 +6,11 @@ curl https://sh.rustup.rs -sSf | sh;  # rust
 bash brew.sh
 bash brew-cask.sh
 bash vim.sh
+
+# zsh customization
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"  # ohmyzsh
+git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k  # zsh theme
+cd ~/Library/Fonts && wget https://github.com/Falkor/dotfiles/blob/master/fonts/SourceCodePro%2BPowerline%2BAwesome%2BRegular.ttf
 
 # copy .conf files
 cp .zshrc ~/.zshrc
