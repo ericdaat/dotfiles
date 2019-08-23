@@ -21,7 +21,7 @@ ZSH_THEME="gianu"
 # DISABLE_AUTO_UPDATE="true"
 
 # Uncomment the following line to change how often to auto-update (in days).
-# export UPDATE_ZSH_DAYS=13
+export UPDATE_ZSH_DAYS=13
 
 # Uncomment the following line to disable colors in ls.
 DISABLE_LS_COLORS="true"
@@ -64,11 +64,11 @@ source $ZSH/oh-my-zsh.sh
 export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='mvim'
-# fi
+if [[ -n $SSH_CONNECTION ]]; then
+  export EDITOR='vim'
+else
+  export EDITOR='mvim'
+fi
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
@@ -76,11 +76,7 @@ export LANG=en_US.UTF-8
 # ssh
 # export SSH_KEY_PATH="~/.ssh/rsa_id"
 
-# Set personal aliases, overriding those provided by oh-my-zsh libs,
-# plugins, and themes. Aliases can be placed here, though oh-my-zsh
-# users are encouraged to define aliases within the ZSH_CUSTOM folder.
-# For a full list of active aliases, run `alias`.
-#
+# Aliases
 if [ -f ~/.aliases ]; then
     . ~/.aliases
 fi
@@ -97,4 +93,7 @@ export CPPFLAGS="-I/usr/local/opt/node@10/include"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # Python
-export PYTHONDONTWRITEBYTECODE=1
+export PYTHONDONTWRITEBYTECODE=1  # don't write .pyc files
+export PIP_REQUIRE_VIRTUALENV=true  # don't install librairies outside of venv
+export PIP_DOWNLOAD_CACHE=$HOME/.pip/cache  # cache pip libraries
+
