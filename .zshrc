@@ -81,9 +81,6 @@ export LANG=en_US.UTF-8
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 #
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
 if [ -f ~/.aliases ]; then
     . ~/.aliases
 fi
@@ -98,3 +95,6 @@ export CPPFLAGS="-I/usr/local/opt/node@10/include"
 
 # FZF
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# Python
+export PYTHONDONTWRITEBYTECODE=1
