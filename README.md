@@ -40,3 +40,15 @@ Here are the plugins I am using so far:
 - SublimeLinter-flake8
 - SublimeLinter-pep8
 - SummitLinter
+
+## Jupyterlab
+
+Add a kernel from a python `virtualenv`:
+
+``` text
+source venv/bin/activate;
+pip install ipykernel;
+ipython kernel install --user --name=myenv
+
+jupyter kernelspec uninstall myenv  # for kernel removal
+```
