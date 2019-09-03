@@ -20,3 +20,4 @@ brew cask install docker;
 # Media
 brew cask install spotify;
 brew cask install vlc;
+brew cask install skype;
