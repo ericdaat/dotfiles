@@ -16,6 +16,7 @@ brew cask install sublime-text;
 brew cask install iterm2;
 brew cask install hyper;
 brew cask install docker;
+brew cask install mactex;
 
 # Media
 brew cask install spotify;
