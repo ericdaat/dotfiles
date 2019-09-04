@@ -21,3 +21,7 @@ brew install watch;
 brew install nmap;
 
 brew install metabase;
+
+brew install nginx;
+brew install redis;
+brew install postgresql;
