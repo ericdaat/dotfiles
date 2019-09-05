@@ -1,1 +1,3 @@
-@reboot tmux new -d -s jupyter 'jupyter-lab --no-browser;'
+# check logs in /var/mail/$USER (on mac)
+
+@reboot /usr/local/bin/tmux new -d -s /usr/local/bin/jupyter 'jupyter-lab --no-browser;'
