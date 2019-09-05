@@ -52,3 +52,9 @@ ipython kernel install --user --name=myenv
 
 jupyter kernelspec uninstall myenv  # for kernel removal
 ```
+
+Run jupyter in tmux: 
+
+```
+tmux new -d -s jupyter 'jupyter-lab --no-browser;'
+```
