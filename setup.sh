@@ -3,8 +3,14 @@
 # install software
 xcode-select --install  # xcode command line tools
 curl https://sh.rustup.rs -sSf | sh;  # rust
-bash brew.sh
+
+# Install brew
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)";
+brew update;
+brew upgrade;
 bash brew-cask.sh
+bash brew.sh
+
 bash vim.sh
 bash python.sh
 

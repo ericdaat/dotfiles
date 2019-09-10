@@ -17,6 +17,7 @@ brew cask install iterm2;
 brew cask install hyper;
 brew cask install docker;
 brew cask install mactex;
+brew cask install homebrew/cask-versions/adoptopenjdk8;
 
 # Media
 brew cask install spotify;

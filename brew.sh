@@ -1,11 +1,5 @@
 #!/bin/bash
 
-# Install brew
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)";
-
-brew update;
-brew upgrade;
-
 brew install python3;
 brew install vim --with-override-system-vi;
 brew install htop;
