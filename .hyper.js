@@ -10,9 +10,16 @@ module.exports = {
 
     // default font size in pixels for all tabs
     fontSize: 12,
+    
+    // Overrides for the verminal theme
+    verminal: {
+      fontFamily: '"Source Code Pro for Powerline"'
+    },
+    
+    // default font size in pixels for all tabs
+    fontSize: 14,
+    fontFamily: '"Source Code Pro for Powerline", Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
 
-    // font family with optional fallbacks
-    fontFamily: 'Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
 
     // default font weight: 'normal' or 'bold'
     fontWeight: 'normal',
