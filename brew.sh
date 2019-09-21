@@ -7,7 +7,6 @@ brew install fzf;
 brew install ctags;
 brew install node;
 brew install zsh;
-brew install zsh-syntax-highlighting;
 brew install zsh-autosuggestions;
 brew install wget;
 brew install tmux;
