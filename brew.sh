@@ -1,6 +1,7 @@
 #!/bin/bash
 
 brew install python3;
+brew install r;
 brew install vim --with-override-system-vi;
 brew install htop;
 brew install fzf;

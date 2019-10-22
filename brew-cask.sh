@@ -18,6 +18,7 @@ brew cask install hyper;
 brew cask install docker;
 brew cask install mactex;
 brew cask install homebrew/cask-versions/adoptopenjdk8;
+brew cask install rstudio;
 
 # Media
 brew cask install spotify;
