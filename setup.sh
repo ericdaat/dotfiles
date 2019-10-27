@@ -3,6 +3,7 @@
 # install software
 xcode-select --install  # xcode command line tools
 curl https://sh.rustup.rs -sSf | sh;  # rust
+gem install bundler jekyll;  # jekyll
 
 # Install brew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)";
