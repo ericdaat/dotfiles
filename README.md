@@ -53,6 +53,12 @@ ipython kernel install --user --name=myenv
 jupyter kernelspec uninstall myenv  # for kernel removal
 ```
 
+Add the R kernel:
+```
+install.packages(c('repr', 'IRdisplay', 'IRkernel'), type = 'source');
+IRkernel::installspec()
+```
+
 Run jupyter in tmux: 
 
 ```
