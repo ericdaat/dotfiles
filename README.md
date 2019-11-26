@@ -1,6 +1,6 @@
 # Dotfiles for macos
 
-I save my dotfiles in this repository for an easy setup of a new machine.
+I save my configuration files in this repository for an easy setup of a new machine.
 
 Run it with:
 
@@ -49,14 +49,27 @@ Here are the plugins I am using so far:
 jupyter lab --generate-config;
 ```
 
-### Add a kernel from a python `virtualenv`
+### Kernels
+
+#### Python with `virtualenv`
 
 ``` text
+# install a kernel
 source venv/bin/activate;
 pip install ipykernel;
 ipython kernel install --user --name=myenv
 
-jupyter kernelspec uninstall myenv  # for kernel removal
+# remove a kernel
+jupyter kernelspec uninstall myenv  
+```
+
+#### R kernel
+
+You need to install `zmq` first, by running `brew install zmq`. Then, run the following in `R`:
+
+``` R
+install.packages(c('repr', 'IRdisplay', 'IRkernel'), type = 'source');
+IRkernel::installspec()
 ```
 
 ### Jupyter extensions
@@ -73,6 +86,8 @@ Templates from [notebook_templates](./notebook_templates) must be copied within
 `/usr/local/share/jupyter/notebook_templates`.
 
 ### Run jupyter in tmux
+
+Run jupyter in tmux: 
 
 ```
 tmux new -d -s jupyter 'jupyter-lab --no-browser;'

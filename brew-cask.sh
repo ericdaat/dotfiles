@@ -1,7 +1,5 @@
 #!/bin/bash
 
-brew install caskroom/cask/brew-cask;
-
 # Browsers
 brew cask install google-chrome;
 brew cask install firefox;
