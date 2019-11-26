@@ -43,7 +43,13 @@ Here are the plugins I am using so far:
 
 ## Jupyterlab
 
-Add a kernel from a python `virtualenv`:
+### Generate configuration
+
+``` text
+jupyter lab --generate-config;
+```
+
+### Add a kernel from a python `virtualenv`
 
 ``` text
 source venv/bin/activate;
@@ -53,7 +59,20 @@ ipython kernel install --user --name=myenv
 jupyter kernelspec uninstall myenv  # for kernel removal
 ```
 
-Run jupyter in tmux: 
+### Jupyter extensions
+
+#### Jupyterlab templates
+
+``` text
+pip install jupyterlab_templates;
+jupyter labextension install jupyterlab_templates;
+jupyter serverextension enable --py jupyterlab_templates;
+```
+
+Templates from [notebook_templates](./notebook_templates) must be copied within
+`/usr/local/share/jupyter/notebook_templates`.
+
+### Run jupyter in tmux
 
 ```
 tmux new -d -s jupyter 'jupyter-lab --no-browser;'
