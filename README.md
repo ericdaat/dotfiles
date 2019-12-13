@@ -41,6 +41,32 @@ Here are the plugins I am using so far:
 - SublimeLinter-pep8
 - SummitLinter
 
+## Visual Studio Code
+
+### Extensions
+
+Can be installed with:
+`cat code_extensions.txt | xargs -L 1 echo code --install-extension`
+
+``` text
+DavidAnson.vscode-markdownlint
+dracula-theme.theme-dracula
+eamodio.gitlens
+Equinusocio.vsc-material-theme
+formulahendry.code-runner
+GrapeCity.gc-excelviewer
+Ikuyadeu.r
+lextudio.restructuredtext
+mikestead.dotenv
+ms-azuretools.vscode-docker
+ms-mssql.mssql
+ms-python.python
+njpwerner.autodocstring
+sibiraj-s.vscode-scss-formatter
+vscodevim.vim
+yzhang.markdown-all-in-one
+```
+
 ## Jupyterlab
 
 ### Generate configuration
