@@ -80,24 +80,24 @@ export LANG=en_US.UTF-8
 # export SSH_KEY_PATH="~/.ssh/rsa_id"
 
 # Aliases
-if [ -f ~/.aliases ]; then
-    . ~/.aliases
+if [ -f ~/.bash_aliases ]; then
+    . ~/.bash_aliases
 fi
+
+# Proxy
+export https_proxy='http://www-cache:3128'
+export http_proxy='http://www-cache:3128'
+export use_proxy='on'
 
 # Append to PATH
 export PATH="$HOME/.cargo/bin:$PATH"
-export PATH="/usr/local/opt/node@10/bin:$PATH"
-
-# Node
-export LDFLAGS="-L/usr/local/opt/node@10/lib"
-export CPPFLAGS="-I/usr/local/opt/node@10/include"
 
 # FZF
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # Python
 export PYTHONDONTWRITEBYTECODE=1  # don't write .pyc files
-export PIP_REQUIRE_VIRTUALENV=true  # don't install librairies outside of venv
+export PIP_REQUIRE_VIRTUALENV=false  # don't install librairies outside of venv
 export PIP_DOWNLOAD_CACHE=$HOME/.pip/cache  # cache pip libraries
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.

@@ -2,6 +2,7 @@
 
 pip install virtualenv;
 pip install jupyterlab;
+pip install pylint flake8 pycodestyle;
 
 virtualenv venv;
 source venv/bin/activate;

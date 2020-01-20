@@ -26,11 +26,14 @@ wget -P ~/Library/Fonts/ https://github.com/Falkor/dotfiles/blob/master/fonts/So
 
 # copy .conf files
 cp .zshrc ~/.zshrc
-cp .aliases ~/.aliases
+cp .bash_aliases ~/.bash_aliases
+cp .bash_profile ~/.bash_profile
 cp vscode.settings.json ~/Library/Application Support/Code/User/settings.json
 cp .hyper.js ~/.hyper.js
 cp vimrc ~/.vim/vimrc
 cp .fzf.zsh ~/.fzf.zsh
+cp .tmux.conf ~/.tmux.conf
+cp .p10k.zsh ~/.p10k.zsh
 
 # symlinks
 ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin  # sublime text
