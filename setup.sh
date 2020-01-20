@@ -34,6 +34,7 @@ cp vimrc ~/.vim/vimrc
 cp .fzf.zsh ~/.fzf.zsh
 cp .tmux.conf ~/.tmux.conf
 cp .p10k.zsh ~/.p10k.zsh
+cp .gitconfig ~/.gitconfig
 
 # symlinks
 ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin  # sublime text
