@@ -11,3 +11,6 @@ git clone https://github.com/tpope/vim-fugitive.git ~/.vim/bundle/vim-fugitive.g
 git clone --recursive https://github.com/davidhalter/jedi-vim.git ~/.vim/bundle/jedi-vim
 git clone https://github.com/w0rp/ale.git ~/.vim/bundle/ale.git
 git clone https://github.com/dracula/vim.git ~/.vim/bundle/dracula
+
+# vimrc
+cp vimrc ~/.vim/
