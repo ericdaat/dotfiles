@@ -22,7 +22,7 @@ git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerl
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
 # fonts
-wget -P ~/Library/Fonts/ https://github.com/Falkor/dotfiles/blob/master/fonts/SourceCodePro%2BPowerline%2BAwesome%2BRegular.ttf
+cp fonts/SourceCodePro+Powerline+Awesome+Regular.ttf ~/Library/Fonts/
 
 # copy .conf files
 cp .zshrc ~/.zshrc
@@ -35,6 +35,7 @@ cp .fzf.zsh ~/.fzf.zsh
 cp .tmux.conf ~/.tmux.conf
 cp .p10k.zsh ~/.p10k.zsh
 cp .gitconfig ~/.gitconfig
+cp jupyter_notebook_config.py ~/.jupyter/jupyter_notebook_config.py
 
 # symlinks
 ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin  # sublime text

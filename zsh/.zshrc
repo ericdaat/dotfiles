@@ -80,8 +80,8 @@ export LANG=en_US.UTF-8
 # export SSH_KEY_PATH="~/.ssh/rsa_id"
 
 # Aliases
-if [ -f ~/.bash_aliases ]; then
-    . ~/.bash_aliases
+if [ -f ~/.aliases.zsh ]; then
+    . ~/.aliases.zsh
 fi
 
 # Proxy

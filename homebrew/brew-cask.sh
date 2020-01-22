@@ -16,13 +16,14 @@ brew cask install homebrew/cask-versions/adoptopenjdk8;
 brew cask install rstudio;
 brew cask install metabase;
 
-# Social
+# Apps
 brew cask install slack;
 brew cask install spotify;
 brew cask install vlc;
 brew cask install skype;
 brew cask install zoomus;
 brew cask install whatsapp;
+brew cask install zotero;
 
 # Drivers
 brew cask install chromedriver

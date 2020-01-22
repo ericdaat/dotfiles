@@ -2,19 +2,14 @@
 
 pip install virtualenv;
 pip install jupyterlab;
-pip install pylint flake8 pycodestyle;
-
-virtualenv venv;
-source venv/bin/activate;
+pip install pylint flake8 pycodestyle autopep8;
 
 # Jupyter Lab
 ## Kernel
-pip install ipykernel;
-pip install autopep8;
-python -m ipykernel install --user --name myenv --display-name "Python (venv)"
+# pip install ipykernel;
+# python -m ipykernel install --user --name myenv --display-name "Python (venv)"
 
 ## Extensions
 jupyter labextension install @jupyterlab/toc
 jupyter labextension install @krassowski/jupyterlab_go_to_definition
 pip install jupyterlab_latex && jupyter labextension install @jupyterlab/latex
-
