@@ -66,5 +66,9 @@
     "files.trimTrailingWhitespace": true,
     // Linters
     "python.linting.flake8CategorySeverity.E": "Warning",
-    "terminal.integrated.fontFamily": "'SourceCodePro+Powerline+Awesome Regular'"
+    "terminal.integrated.fontFamily": "monospace",
+    "explorer.confirmDragAndDrop": false,
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+    "python.jediEnabled": false
 }
