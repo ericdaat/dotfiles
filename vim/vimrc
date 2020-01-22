@@ -4,6 +4,9 @@ execute pathogen#infect()
 " Syntax color
 syntax on
 
+" Theme
+colorscheme dracula
+
 " Leader key
 let mapleader=" "
 
