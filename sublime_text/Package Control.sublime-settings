@@ -1,0 +1,24 @@
+{
+    "bootstrapped": true,
+    "installed_packages":
+    [
+        "Package Control",
+        "AutoFileName",
+        "BracketHighlighter",
+        "ExportHtml",
+        "GenerateUUID",
+        "HexViewer",
+        "Neon Color Scheme",
+        "PackageResourceViewer",
+        "PlistJsonConverter",
+        "Python Flake8 Lint",
+        "Python Improved",
+        "SideBarEnhancements",
+        "SideBarGit",
+        "SublimeCodeIntel",
+        "SublimeREPL",
+        "Tag",
+        "Terminal",
+            "Theme - Soda"
+    ]
+}

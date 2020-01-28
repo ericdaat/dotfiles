@@ -29,10 +29,16 @@ bash vscode/vscode.sh;
 cp git/.gitconfig $HOME/.gitconfig;
 
 # Sublime Text
-ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin;
+bash sublime_text/sublime.sh
 
-# Other
-cp .hyper.js ~/
-cp .tmux.conf ~/.tmux.conf
-curl https://sh.rustup.rs -sSf | sh;  # rust
-gem install bundler jekyll;  # jekyll
+# Hyper
+bash hyper/hyper.sh
+
+# tmux
+cp tmux/.tmux.conf ~/.tmux.conf
+
+# rust
+curl https://sh.rustup.rs -sSf | sh;  
+
+# jekyll
+gem install bundler jekyll;  
