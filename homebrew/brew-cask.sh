@@ -8,6 +8,7 @@ brew cask install firefox;
 brew cask install postman;
 brew cask install visual-studio-code;
 brew cask install sublime-text;
+brew cask install sublime-merge;
 brew cask install iterm2;
 brew cask install hyper;
 brew cask install docker;
