@@ -2,8 +2,6 @@
 	"color_scheme": "Packages/User/Material-Theme-Palenight (Flake8Lint).tmTheme",
 	"ignored_packages":
 	[
-		"SideBarGit",
-		"Tag",
 		"Vintage"
 	],
 	"theme": "Material-Theme-Palenight.sublime-theme"

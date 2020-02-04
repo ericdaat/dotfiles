@@ -14,6 +14,7 @@ brew install watch;
 brew install nmap;
 brew install zmq;
 brew install gcc;
+brew install eralchemy;
 
 brew install nginx;
 brew install redis;
