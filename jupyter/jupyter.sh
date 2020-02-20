@@ -26,11 +26,21 @@ Rscript -e 'IRkernel::installspec()'
 ## table of content
 jupyter labextension install @jupyterlab/toc
 
+## requirejs
+jupyter labextension install jupyterlab_requirejs
+
+## flake 8 linter
+jupyter labextension install jupyterlab-flake8
+
 ## go to definition
 jupyter labextension install @krassowski/jupyterlab_go_to_definition
 
 ## latex
 pip install jupyterlab_latex && jupyter labextension install @jupyterlab/latex
+
+## git
+pip install --upgrade jupyterlab-git
+jupyter lab build
 
 ## templates
 pip install jupyterlab_templates;
