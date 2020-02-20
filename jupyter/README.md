@@ -23,3 +23,7 @@ ipython kernel install --user --name=myenv
 ```bash
 jupyter kernelspec uninstall myenv
 ```
+
+## Tips
+
+- Run R code in a cell: `%load_ext rpy2.ipython` then use '%%R' magic command.

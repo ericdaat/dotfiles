@@ -21,6 +21,9 @@ python -m ipykernel install --user --name venv --display-name "Python (venv)"
 Rscript -e 'install.packages(c("repr", "IRdisplay", "IRkernel"), type = "source", repos="https://cran.rstudio.com");'
 Rscript -e 'IRkernel::installspec()'
 
+### R magic in jupyter
+pip install rpy2
+
 # Extensions
 
 ## table of content
