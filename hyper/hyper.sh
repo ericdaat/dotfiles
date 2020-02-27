@@ -2,4 +2,4 @@
 
 hyper install hyper-dracula;
 
-cp .hyper.js $HOME/
+cp hyper/.hyper.js $HOME/
