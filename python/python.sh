@@ -13,7 +13,7 @@ python3 -m pip install --user --upgrade twine;
 # install requirements in a virtualenv
 virtualenv venv -p python3;
 source venv/bin/activate;
-python3 -m pip install requirements.txt;
+python3 -m pip install -r requirements.txt;
 
 # fix matplotlib bug
 cp matplotlibrc $HOME/.matplotlib/
