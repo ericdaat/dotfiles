@@ -25,6 +25,7 @@ brew cask install skype;
 brew cask install zoomus;
 brew cask install whatsapp;
 brew cask install zotero;
+brew cask install google-backup-and-sync;
 
 # Others
 brew cask install chromedriver
