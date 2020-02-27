@@ -16,6 +16,9 @@ brew install zmq;
 brew install gcc;
 brew install eralchemy;
 brew install pandoc;
+brew install freetype;
+brew install cairo;
+brew install pkg-config;
 
 brew install nginx;
 brew install redis;

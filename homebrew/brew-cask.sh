@@ -26,5 +26,6 @@ brew cask install zoomus;
 brew cask install whatsapp;
 brew cask install zotero;
 
-# Drivers
+# Others
 brew cask install chromedriver
+brew cask install xquartz;
