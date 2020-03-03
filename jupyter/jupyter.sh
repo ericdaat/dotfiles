@@ -50,7 +50,7 @@ jupyter lab build
 pip3 install jupyterlab_templates;
 jupyter-labextension install jupyterlab_templates;
 jupyter serverextension enable --py jupyterlab_templates;
-cp notebook_templates /usr/local/share/jupyter/notebook_templates;
+cp -R notebook_templates /usr/local/share/jupyter/notebook_templates;
 
 ## plotly
 jupyter-labextension install @jupyter-widgets/jupyterlab-manager@1.1;
