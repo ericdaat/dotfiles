@@ -9,7 +9,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 git clone https://github.com/zsh-users/zsh-autosuggestions.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
 # zsh dotfiles
-cp .zshrc $HOME/
-cp .aliases.zsh $HOME/
-cp .fzf.zsh $HOME/
-cp .p10k.zsh $HOME/
+cp zsh/.zshrc $HOME/
+cp zsh/.aliases.zsh $HOME/
+cp zsh/.fzf.zsh $HOME/
+cp zsh/.p10k.zsh $HOME/

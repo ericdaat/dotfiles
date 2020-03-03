@@ -23,3 +23,4 @@ brew install spatialindex;
 brew install nginx;
 brew install redis;
 brew install postgresql;
+brew install spatialindex;
