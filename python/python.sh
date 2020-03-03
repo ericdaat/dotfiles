@@ -1,19 +1,19 @@
 #!/bin/bash
 
 # virtualenv
-python3 -m pip install virtualenv;
+pip3 install virtualenv;
 
 # linters
-python3 -m pip install pylint flake8 pycodestyle autopep8;
+pip3 install pylint flake8 pycodestyle autopep8;
 
 # package building
-python3 -m pip install --user --upgrade setuptools wheel;
-python3 -m pip install --user --upgrade twine;
+pip3 install --user --upgrade setuptools wheel;
+pip3 install --user --upgrade twine;
 
 # install requirements in a virtualenv
 virtualenv $HOME/venv -p python3;
 source $HOME/venv/bin/activate;
-python3 -m pip install -r python/requirements.txt;
+pip3 install -r python/requirements.txt;
 
 # fix matplotlib bug
 cp matplotlibrc $HOME/.matplotlib/

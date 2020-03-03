@@ -2,8 +2,8 @@
 
 # install
 
-python3 -m pip install jupyterlab;
-python3 -m pip install jupyter;
+pip3 install jupyterlab;
+pip3 install jupyter;
 
 # configuration file
 
@@ -14,8 +14,8 @@ cp jupyter/jupyter_notebook_config.py $HOME/.jupyter/
 ## Python in virtualenv
 # virtualenv $HOME/venv -p python3;
 # source $HOME/venv/bin/activate;
-python3 -m pip install ipykernel;
-# python -m ipykernel install --user --name venv --display-name "Python (venv)"
+pip3 install ipykernel;
+# python3 -m ipykernel install --user --name venv --display-name "Python (venv)"
 
 ## R
 
@@ -23,7 +23,7 @@ Rscript -e 'install.packages(c("repr", "IRdisplay", "IRkernel"), type = "source"
 Rscript -e 'IRkernel::installspec()'
 
 ### R magic in jupyter
-python3 -m pip install rpy2
+pip3 install rpy2
 
 # Extensions
 
@@ -43,11 +43,11 @@ jupyter-labextension install jupyterlab_requirejs
 pip install jupyterlab_latex && jupyter-labextension install @jupyterlab/latex
 
 ## git
-python3 -m pip install --upgrade jupyterlab-git
+pip3 install --upgrade jupyterlab-git
 jupyter lab build
 
 ## templates
-python3 -m pip install jupyterlab_templates;
+pip3 install jupyterlab_templates;
 jupyter-labextension install jupyterlab_templates;
 jupyter serverextension enable --py jupyterlab_templates;
 cp notebook_templates /usr/local/share/jupyter/notebook_templates;
