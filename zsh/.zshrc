@@ -86,9 +86,9 @@ if [ -f ~/.aliases.zsh ]; then
 fi
 
 # Proxy
-export https_proxy='http://www-cache:3128'
-export http_proxy='http://www-cache:3128'
-export use_proxy='on'
+if [ -f ~/.proxy.zsh ]; then
+    . ~/.proxy.zsh
+fi
 
 # Append to PATH
 export PATH="$HOME/.cargo/bin:$PATH"
