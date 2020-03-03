@@ -6,23 +6,21 @@ xcode-select --install
 # fonts
 cp fonts/SourceCodePro-Regular.ttf $HOME/Library/Fonts/
 
-# Install brew
+# Homebrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)";
-brew update;
-brew upgrade;
-bash brew/brew-cask.sh;
-bash brew/brew.sh;
+bash homebrew/brew.sh;
+bash homebrew/brew-cask.sh;
 
-# Configure vim
+# Vim
 bash vim/vim.sh;
 
-# Install & configure python
+# Python
 bash python/python.sh;
 
-# zsh customization
+# Zsh
 bash zsh/zsh.sh;
 
-# vscode
+# Visual Studio Code
 bash vscode/vscode.sh;
 
 # git
@@ -31,7 +29,7 @@ cp git/.gitconfig $HOME/.gitconfig;
 # Sublime Text
 bash sublime_text/sublime.sh
 
-# Hyper
+# Hyper Terminal
 bash hyper/hyper.sh
 
 # tmux
@@ -41,4 +39,4 @@ cp tmux/.tmux.conf ~/.tmux.conf
 curl https://sh.rustup.rs -sSf | sh;  
 
 # jekyll
-gem install bundler jekyll;  
+gem install bundler jekyll;

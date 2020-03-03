@@ -19,6 +19,7 @@ brew install pandoc;
 brew install freetype;
 brew install cairo;
 brew install pkg-config;
+brew install spatialindex;
 brew install nginx;
 brew install redis;
 brew install postgresql;

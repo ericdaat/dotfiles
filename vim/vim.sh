@@ -13,4 +13,4 @@ git clone https://github.com/w0rp/ale.git ~/.vim/bundle/ale.git
 git clone https://github.com/dracula/vim.git ~/.vim/bundle/dracula
 
 # vimrc
-cp vimrc ~/.vim/
+cp vim/vimrc ~/.vim/
