@@ -1,6 +1,7 @@
 {
     "workbench.colorTheme": "Solarized Dark",
     "workbench.startupEditor": "newUntitledFile",
+    "editor.fontSize": 14,
     "materialTheme.accent": "Acid Lime",
     "explorer.confirmDelete": false,
     "editor.minimap.enabled": false,
