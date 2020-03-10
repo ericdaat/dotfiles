@@ -71,5 +71,9 @@
     "explorer.confirmDragAndDrop": false,
     "git.enableSmartCommit": true,
     "git.autofetch": true,
-    "python.jediEnabled": false
+    "python.jediEnabled": false,
+    "markdownlint.config": {
+        "default": true,
+        "MD033": false
+    }
 }
