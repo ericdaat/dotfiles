@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# remove default python
+rm -rf Library/Python/
+
 # virtualenv
 pip3 install virtualenv;
 
@@ -16,4 +19,4 @@ source $HOME/venv/bin/activate;
 pip3 install -r python/requirements.txt;
 
 # fix matplotlib bug
-cp matplotlibrc $HOME/.matplotlib/
+cp python/matplotlibrc $HOME/.matplotlib/
