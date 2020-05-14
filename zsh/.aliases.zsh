@@ -11,3 +11,5 @@ alias vi='vim'
 alias c='clear'
 
 alias ipi='ipconfig getifaddr en0'
+
+alias clean_branches='git branch | grep -v "master" | xargs git branch -D'
