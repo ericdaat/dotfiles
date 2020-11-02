@@ -24,3 +24,8 @@ brew install nginx;
 brew install redis;
 brew install postgresql;
 brew install spatialindex;
+brew install gdal;
+brew install udunits;
+brew install protobuf;
+brew install jq;
+brew install v8;
