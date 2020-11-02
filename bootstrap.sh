@@ -7,7 +7,7 @@ xcode-select --install
 cp fonts/SourceCodePro-Regular.ttf $HOME/Library/Fonts/
 
 # Homebrew
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)";
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 bash homebrew/brew.sh;
 bash homebrew/brew-cask.sh;
 
