@@ -10,7 +10,9 @@ tmux new -d -s jupyter 'jupyter-lab --no-browser;'
 
 ## Kernels
 
-### Install a kernel
+### Python kernels
+
+Install with:
 
 ```bash
 source venv/bin/activate;
@@ -18,10 +20,31 @@ pip install ipykernel;
 ipython kernel install --user --name=myenv
 ```
 
-### Remove a kernel
+List with:
+
+```bash
+jupyter kernelspec list
+```
+
+Remove with:
 
 ```bash
 jupyter kernelspec uninstall myenv
+```
+
+### R kernel
+
+```R
+install.packages('IRkernel')
+IRkernel::installspec()  # to register the kernel in the current R installation
+jupyter labextension install @techrah/text-shortcuts  # for RStudio’s shortcuts
+```
+
+### Julia kernel
+
+```julia
+] # pkg install mode
+add iJulia
 ```
 
 ## Tips
