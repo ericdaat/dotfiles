@@ -13,3 +13,4 @@ cp zsh/.zshrc $HOME/
 cp zsh/.aliases.zsh $HOME/
 cp zsh/.fzf.zsh $HOME/
 cp zsh/.p10k.zsh $HOME/
+cp zsh/.crontab-focus.zsh $HOME/
