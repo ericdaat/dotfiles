@@ -1,2 +1,2 @@
-0 10-18 * * * networksetup -setairportpower airport off
-45 10-18 * * * networksetup -setairportpower airport on
+0 10-18 * * * /usr/sbin/networksetup -setairportpower airport off
+45 10-18 * * * /usr/sbin/networksetup -setairportpower airport on

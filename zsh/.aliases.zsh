@@ -21,5 +21,5 @@ alias disable_proxy="mv $PROXY_ON $PROXY_OFF";
 alias enable_proxy="mv $PROXY_OFF $PROXY_ON";
 
 # Focus & disable wifi
-alias focus-start='crontab .crontab-focus.zsh'
-alias focus-stop='crontab -r'
+alias focus-start='sudo crontab .crontab-focus.zsh'
+alias focus-stop='sudo crontab -r'
