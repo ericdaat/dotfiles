@@ -14,6 +14,7 @@ This repository includes configuration for:
 - [Vim](https://www.vim.org/)
 - [Sublime Text](https://www.sublimetext.com/)
 - [Tmux](https://github.com/tmux/tmux)
+- [Jupyter Lab](https://jupyterlab.readthedocs.io/en/stable/)
 
 ## Usage
 
