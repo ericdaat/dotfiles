@@ -33,6 +33,9 @@ jupyter-labextension install @jupyterlab/toc
 ## requirejs
 jupyter-labextension install jupyterlab_requirejs
 
+## Themes
+jupyter-labextension install @telamonian/theme-darcula
+
 ## flake 8 linter
 # jupyter-labextension install jupyterlab-flake8
 
