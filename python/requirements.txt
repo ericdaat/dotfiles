@@ -118,7 +118,7 @@ python-editor==1.0.4
 pytz==2019.3
 pyviz-comms==0.7.2
 pywaffle==0.5.1
-PyYAML==5.3
+PyYAML==5.4
 pyzmq==18.1.1
 readme-renderer==24.0
 requests==2.22.0
