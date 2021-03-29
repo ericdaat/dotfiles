@@ -107,7 +107,7 @@ pycparser==2.19
 pyflakes==2.1.1
 pygal==2.4.0
 pygal-maps-fr==1.1.0
-Pygments==2.5.2
+Pygments==2.7.4
 pyparsing==2.4.2
 pyproj==2.4.2.post1
 pyrsistent==0.15.7
