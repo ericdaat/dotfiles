@@ -100,7 +100,7 @@ psutil==5.6.7
 psycopg2-binary==2.8.3
 ptyprocess==0.6.0
 pubmed-lookup==0.2.3
-py==1.8.0
+py==1.10.0
 pyarrow==0.15.1
 pycodestyle==2.5.0
 pycparser==2.19
